@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+
+
+
+#header{   
+    background-image: url('../assets/images/jj\ lin.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 400px;
+
+}
+
+#header{
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+
+
+#header>.container {
+    position: relative;
+    right: 360px;
+    z-index: 2;}
+
+#header>.container2 {
+    position: relative;
+    right: 250px;
+    z-index: 2;}
+
+.join{
+    color: rgb(9, 23, 87); 
+    font-size: 40px;
+    font-family: 'Kalam', cursive;
+
+} 

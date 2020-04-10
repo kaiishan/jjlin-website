@@ -1,0 +1,7 @@
+*{
+    box-sizing: border-box;
+    border: 1 px solid black;
+}
+body{
+    margin:0;
+}
