@@ -25,3 +25,111 @@
   color: #091757;
   font-size: 40px;
   font-family: 'Kalam', cursive; }
+
+#aboutHead {
+  background-image: url("../assets/images/jjstage.png");
+  background-size: cover;
+  padding: 200px 0px;
+  border-radius: 0px;
+  margin-bottom: 0px;
+  /* filter: brightness(0.5); */
+  position: relative; }
+
+#aboutHead:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1; }
+
+#aboutHead > .container {
+  position: relative;
+  z-index: 2;
+  font-family: 'Kalam', cursive; }
+
+.about {
+  text-align: center; }
+
+.avatar-image {
+  max-width: 600px;
+  float: left;
+  padding-right: 40px;
+  margin: 10px; }
+
+#article1 {
+  margin: 50px; }
+
+#disHead {
+  background-image: url("../assets/images/stage.png");
+  background-size: cover;
+  padding: 200px 0px;
+  border-radius: 0px;
+  margin-bottom: 0px;
+  /* filter: brightness(0.5); */
+  position: relative; }
+
+#disHead:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1; }
+
+#disHead > .container {
+  position: relative;
+  z-index: 2;
+  font-family: 'Kalam', cursive; }
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.card {
+  width: 320px;
+  border-radius: 12px;
+  /* box-shadow: x y blur color; */
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  margin: 30px 15px; }
+
+.card-img {
+  width: 100%; }
+
+.card-title {
+  font-family: 'Kalam', cursive;
+  text-align: center;
+  margin: 20px; }
+
+.card-body {
+  /* padding: 0px 15px; */
+  /* padding-bottom: 15px; */
+  padding: 0px 15px 15px 15px; }
+
+h3 {
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+.card-text {
+  margin-top: 0px;
+  text-align: left;
+  font-weight: 800;
+  text-align: center; }
+
+.dis {
+  text-align: center;
+  margin: 40px;
+  font-family: 'Kalam', cursive; }
+
+.songs {
+  display: inline; }
+
+.time {
+  display: inline; }
