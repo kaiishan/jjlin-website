@@ -170,3 +170,140 @@ h3 {
 .time{
   display: inline;;
 }
+
+
+// media 
+
+.mecards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.mecard {
+  border-radius: 10px;
+  /* box-shadow: x y blur color; */
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  margin: 30px 15px;
+}
+
+
+
+.mecard-title{
+  font-family: 'Kalam', cursive;
+  text-align: center;
+  margin: 20px;
+}
+
+.mecard-body {
+  /* padding: 0px 15px; */
+  /* padding-bottom: 15px; */
+  padding: 0px 15px 15px 15px;
+}
+
+h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#meHead{   
+  background-image: url('../assets/images/black.png');
+  background-size: cover;
+    padding: 200px 0px;
+    border-radius: 0px; 
+    margin-bottom: 0px;
+    /* filter: brightness(0.5); */
+    position: relative;  
+
+}
+
+#meHead:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
+
+
+#meHead>.container {
+  position: relative;
+  z-index: 2;
+font-family: 'Kalam', cursive;
+}
+
+[id^='galleryImage'] {
+  background-size: cover;
+  height: 250px;
+  filter: grayscale(100%);
+  transition: all .3s ease-out;
+}
+
+[id^='galleryImage']>.gallery-text {
+  opacity: 0;
+  font-size: 6px;
+  line-height: 250px;
+  color: white;
+  text-shadow: 0 5px 10px rgba(0, 0, 0, .5);
+  text-align: center;
+  transition: all .3s ease-out;
+}
+
+[id^='galleryImage']:hover {
+  filter: grayscale(0%);
+}
+
+[id^='galleryImage']:hover>.gallery-text {
+  opacity: 1;
+  font-size: 22px;
+}
+
+
+
+#galleryImage1 {
+  background-image: url('../assets/images/green.png');
+}
+
+#galleryImage2 {
+  background-image: url('../assets/images/fire.png');
+}
+
+#galleryImage3 {
+  background-image: url('../assets/images/piano.png');
+}
+
+#galleryImage4 {
+  background-image: url('../assets/images/purple.png');
+}
+
+#galleryImage5 {
+  background-image: url('../assets/images/water.png');
+}
+
+#galleryImage6 {
+  background-image: url('../assets/images/smoke.png');
+}
+
+#galleryImage7 {
+  background-image: url('../assets/images/look.png');
+} 
+
+#galleryImage8 { 
+  background-image: url('../assets/images/handsome.png');
+}
+  
+
