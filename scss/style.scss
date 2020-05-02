@@ -314,3 +314,63 @@ font-family: 'Kalam', cursive;
 }
   
 
+// shop
+
+#shopHead{   
+  background-image: url('../assets/images/many.jpg');
+  background-size: cover;
+    padding: 200px 0px;
+    border-radius: 0px;
+    margin-bottom: 0px;
+    /* filter: brightness(0.5); */
+    position: relative;
+
+}
+
+#shopHead:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
+
+
+#shopHead>.container {
+  position: relative;
+  z-index: 2;
+font-family: 'Kalam', cursive;
+}
+
+// calendar
+#calHead{   
+  background-image: url('../assets/images/spray.png');
+  background-size: cover;
+    padding: 200px 0px;
+    border-radius: 0px;
+    margin-bottom: 0px;
+    /* filter: brightness(0.5); */
+    position: relative;
+
+}
+
+#calHead:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
+
+
+#calHead>.container {
+  position: relative;
+  z-index: 2;
+font-family: 'Kalam', cursive;
+}

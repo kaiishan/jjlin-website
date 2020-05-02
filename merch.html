@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="logo">JJ-Lin</title>
+    <link rel="stylesheet" href="./stylesheets/bootstrap.css">
+    <link rel="stylesheet" href="./assets/stylesheets/basic.css">
+    <link rel="stylesheet" href="./stylesheets/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="./responsive.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-primary fixed-top">
+        <a class="navbar-brand" href="#">JJ Lin</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./about.html">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./tour-dates.html">Calendar <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./discography.html">Discography <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./merch.html">Shop <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./media.html">Media <span class="sr-only">(current)</span></a>
+                </li>
+
+            </ul>
+
+        </div>
+    </nav>
+
+    <header id="shopHead" class="jumbotron text-light p-70 ">
+        <div class="container">
+            <h1 class="dis">Shop</h1>
+        </div>
+    </header>
+    <section>
+        <h1 class="dis">Bring me Home!</h1>
+        <div align="center">
+            <button data-toggle="collapse" data-target="#article1" class="btn btn-primary">Albums</button>
+            <button data-toggle="collapse" data-target="#article2" class="btn btn-primary">Concert Merchandise</button>
+        </div>
+
+        <div class="cards my-3 collapse show" id="article1">
+            <!-- card -->
+            <div class="card">
+                <img class="card-img" src="./assets/images/good.jpg" alt="">
+                <div class="card-body">
+                    <h3 class="card-title">Message in bottle</h3>
+                    <p class="card-text">Tracks Number: 12
+                        <br> Price: $10.99</p>
+
+                </div>
+            </div>
+            <!-- card end -->
+            <!-- card -->
+            <div class="card">
+                <img class="card-img" src="./assets/images/cover.jpg" alt="">
+                <div class="card-body">
+                    <h3 class="card-title">From me to myself</h3>
+                    <p class="card-text">Tracks Number: 11
+                        <br> Price: $9.59</p>
+
+                </div>
+            </div>
+            <!-- card end -->
+            <!-- card -->
+            <div class="card">
+                <img class="card-img" src="./assets/images/snow.png" alt="">
+                <div class="card-body">
+                    <h3 class="card-title">Lost N Found</h3>
+                    <p class="card-text">Tracks Number: 11
+                        <br> Price: $10.49</p>
+                </div>
+            </div>
+            <!-- card end -->
+
+
+        </div>
+        <!-- cards end -->
+
+        <div class="cards my-3 collapse" id="article2">
+            <!-- card -->
+            <div class="card">
+                <img class="card-img" src="./assets/images/pillow.png" alt="">
+                <div class="card-body">
+                    <h3 class="card-title">Photo Collage Pillowcase</h3>
+                    <p class="card-text">Price: $17.99</p>
+                </div>
+            </div>
+            <!-- card end -->
+            <!-- card -->
+            <div class="card">
+                <img class="card-img" src="./assets/images/shirt.png" alt="">
+                <div class="card-body">
+                    <h3 class="card-title">JJ Lin Graphic <br> T-Shirt</h3>
+                    <p class="card-text">Price: $24</p>
+                </div>
+            </div>
+            <!-- card end -->
+            <!-- card -->
+            <div class="card">
+                <img class="card-img" src="./assets/images/fashion.jpg" alt="">
+                <div class="card-body">
+                    <h3 class="card-title">Sanctuary World Tour T-Shirt</h3>
+                    <p class="card-text">Price: $24</p>
+                </div>
+            </div>
+            <!-- card end -->
+
+
+        </div>
+        <!-- cards end -->
+    </section>
+</body>
+
+</html>
