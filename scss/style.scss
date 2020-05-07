@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
-
+.nav{
+  font-size: 25px;
+  font-family: 'Kalam', cursive;
+}
 
 #header{   
     background-image: url('../assets/images/jj\ lin.jpg');
@@ -70,20 +74,66 @@ font-family: 'Kalam', cursive;
 
 .about{
   text-align: center;
+}  
+
+.jjhead{
+  font-family: 'Kalam', cursive;
+  // margin-top: 100px;
 }
 
-
-
   .avatar-image{
-      max-width: 600px;
+    border-radius: 10px ;
+      max-width: 50%;
       float: left;
-      padding-right: 40px;
-      margin: 10px;
+      min-width: 400px;
+      box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  margin: 0px 30px;
      }
+
+  [class*="col-"] { float: left; }
+.col-xs {width: 100%}
+.col-xs-1 {width: 8.333%}
+.col-xs-2 {width: 16.667%}
+.col-xs-3 { width: 25%}
+.col-xs-4 {width: 33.333%}
+.col-xs-5 {width: 41.667%}
+.col-xs-6 {width: 50%}
+.col-xs-7 {width: 58.333%}
+.col-xs-8 {width: 66.667%}
+.col-xs-9 {width: 75%}
+.col-xs-10 {width: 83.333%}
+.col-xs-11 {width: 91.667%}
+.col-xs-12 {width: 100%}
+@media only screen and (min-width: 544px) {
+ .col-md {width: 100%}
+ .col-md-1 {width: 8.333%}
+ .col-md-2 {width: 16.667%}
+ .col-md-3 {width: 25%}
+ .col-md-4 {width: 33.333%}
+ .col-md-5 {width: 41.667%}
+ .col-md-6 {width: 50%}
+ .col-md-7 {width: 58.333%}
+ .col-md-8 {width: 66.667%}
+ .col-md-9 {width: 75%}
+ .col-md-10 {width: 83.333%}
+ .col-md-11 {width: 91.667%}
+ .col-md-12 {width: 100%}
+}
 
 #article1{
   margin: 50px;
 }
+
+.open{
+  font-family: 'Sriracha', cursive;
+  font-size: 18px;
+  
+}
+//  .open1{
+//    list-style: none;
+//  }
+
 
 // discography
 #disHead{   
@@ -94,7 +144,7 @@ font-family: 'Kalam', cursive;
     margin-bottom: 0px;
     /* filter: brightness(0.5); */
     position: relative;
-
+ 
 }
 
 #disHead:before {
@@ -181,13 +231,23 @@ h3 {
 }
 
 .mecard {
+  display: block;
   border-radius: 10px;
   /* box-shadow: x y blur color; */
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
   overflow: hidden;
   margin: 30px 15px;
+  z-index: 0;
+ transition: all .3s ease-in-out; 
 }
 
+.mecard:hover{
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  margin: 30px 15px;
+  z-index: 10;
+}
 
 
 .mecard-title{
@@ -373,4 +433,131 @@ font-family: 'Kalam', cursive;
   position: relative;
   z-index: 2;
 font-family: 'Kalam', cursive;
+}
+
+// test
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create four equal columns that floats next to eachother */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Caption text */
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
